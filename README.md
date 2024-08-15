@@ -6,8 +6,8 @@
 </p>
 
 ## ⏫ Update
-* **[2024.06.17]** [Paper](https://arxiv.org/abs/2308.08833) released.
-* **[2024.06.17]** 🎉🎉🎉 CMB is published！🎉🎉🎉
+* **[2024.06.17]** 🎉🎉🎉 [EMPEC](https://arxiv.org/abs/2308.08833) paper published！🎉🎉🎉
+* **[2024.02.23]** [EMPEC](https://huggingface.co/datasets/KenLuo/EMPEC) dataset released.
 
 
 
