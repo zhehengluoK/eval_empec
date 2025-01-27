@@ -25,7 +25,7 @@ Check out [HuggingFace datasets](https://huggingface.co/datasets/KenLuo/EMPEC) t
 ![CMB](figs/dst.png)
 
 EMPEC consists of 157,803 exam questions across 124 subjects and 20 healthcare professions
-    
+The test data is available for preview in the `test.jsonl` file.
 
 
 
@@ -52,12 +52,12 @@ EMPEC consists of 157,803 exam questions across 124 subjects and 20 healthcare p
 
 ### Evaluation
 #### vllm:
-1. `python eval.py MODEL_NAME DATA`
-2. `python test.py eval_results/MODEL_NAME-DATA.jsonl`
+1. `python src/eval.py MODEL_NAME DATA`
+2. `python src/test.py eval_results/MODEL_NAME-DATA.jsonl`
 
 #### Proprietary:
-1. `python eval_api.py MODEL_NAME DATA`
-2. `python test.py eval_results/MODEL_NAME-DATA.jsonl`
+1. `python src/eval_api.py MODEL_NAME DATA`
+2. `python src/test.py eval_results/MODEL_NAME-DATA.jsonl`
 
 ##  Citation
 Please use the following citation if you intend to use our dataset for training or evaluation:
