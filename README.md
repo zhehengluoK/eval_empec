@@ -1,27 +1,5 @@
-# EMPEC Examinations for Medical Personnel in Chinese
 
-<p align="center">
-   📃 <a href="https://arxiv.org/abs/2406.11328" target="_blank">Paper</a> • 🤗 <a href="https://huggingface.co/datasets/KenLuo/EMPEC" target="_blank">HuggingFace</a>  
-   <br>  <a href="https://github.com/zhehengluoK/eval_empec/blob/main/README.md"> English
-</p>
-
-## ⏫ Update
-* **[2024.06.17]** 🎉🎉🎉 [EMPEC](https://arxiv.org/abs/2308.08833) paper published！🎉🎉🎉
-* **[2024.02.23]** [EMPEC](https://huggingface.co/datasets/KenLuo/EMPEC) dataset released.
-
-
-
-## 🌐 Download Data
-
-Check out [HuggingFace datasets](https://huggingface.co/datasets/KenLuo/EMPEC) to load our data as follows:
-  ```python
-  from datasets import load_dataset
-
-    ds = load_dataset("KenLuo/EMPEC")
-  ```
-
-
-## 📖 Dataset intro
+## 📖 Dataset Intro
 ![CMB](figs/dst.png)
 
 EMPEC consists of 157,803 exam questions across 124 subjects and 20 healthcare professions
@@ -59,17 +37,3 @@ The test data is available for preview in the `test.jsonl` file.
 1. `python src/eval_api.py MODEL_NAME DATA`
 2. `python src/test.py eval_results/MODEL_NAME-DATA.jsonl`
 
-##  Citation
-Please use the following citation if you intend to use our dataset for training or evaluation:
-
-
-```
-@article{Luo2024AreLL,
-  title={Are Large Language Models True Healthcare Jacks-of-All-Trades? Benchmarking Across Health Professions Beyond Physician Exams},
-  author={Zheheng Luo and Chenhan Yuan and Qianqian Xie and Sophia Ananiadou},
-  journal={ArXiv},
-  year={2024},
-  volume={abs/2406.11328},
-  url={https://api.semanticscholar.org/CorpusID:270560512}
-}
-```
