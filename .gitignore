@@ -2,3 +2,4 @@
 api.py
 *eval_multi.sh
 *.out
+*.ipynb
